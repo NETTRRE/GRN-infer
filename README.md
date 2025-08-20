@@ -2,9 +2,7 @@
 
 ![Screenshot](Figure/MCTS1-2.png)
 
-In this work, we proposed a new method for BN inference from time-series transcriptional profiles, called LogicGep,
-which reconstructs the network topology and identifies each gene’s Boolean update function with a low time
-complexity
+ In this work, we present LogSR, a computational framework that reconstructs gene regulatory networks from single-cell gene expression data with high fidelity by integrating the mechanistic interpretability of logical models with the equation discovery capabilities of symbolic regression. It embeds prior knowledge into a multi-objective Monte Carlo tree search framework, using it both to ensure biological plausibility and to accelerate the search for optimal governing equations.
 
 ## Dependencies
 requirements.txt
