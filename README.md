@@ -16,8 +16,8 @@ requirements.txt
   
 2. Prepare inputs
    
-   Expression matrix: CSV/TSV with rows = cells and columns = genes. Values are binarized internally  
-   PPI matrix: Protein × Protein weight matrix  
+   Expression matrix: CSV/TSV with rows = cells and columns = genes. Values are binarized internally.  
+   PPI matrix: Protein × Protein weight matrix.    
    TF list: lists of transcription factors (TFs) for the following species: Human; Mouse.
 4. Run & outputs
  
