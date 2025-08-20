@@ -14,12 +14,15 @@ requirements.txt
    pip install -r requirements.txt 
    Requires Python ≥ 3.8 (3.9–3.11 recommended)
   
-2. Preparing  for  time-series gene expression profiles
+2. Prepare inputs
    
-   For the input data, ensure that it is structured with rows representing different time points and columns 
-   corresponding to various genes
-   
-3. Command to run LogicGep
+   Expression matrix: CSV/TSV with rows = cells and columns = genes. Values are binarized internally
+   PPI matrix: Protein × Protein weight matrix
+   TF list: lists of transcription factors (TFs) for the following species: Human; Mouse.
+4. Run & outputs
  
-   ``cd LogicGep ``  
-   ``python main.py``
+   python -m logsr.run \
+   --expr expr.csv --ppi ppi.csv --tfs tf_list.txt \
+   --out_edges grn_edges.tsv \
+   --iter 800 --cuct 1.4 --w1 0.30 --w2 0.50 --gamma 1e-3 --eta 0.95 --seed 7
+
