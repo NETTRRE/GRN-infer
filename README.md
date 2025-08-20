@@ -9,7 +9,11 @@ requirements.txt
   
 ## Usage
 
-1. Preparing  for  time-series gene expression profiles
+1.Install
+  pip install -r requirements.txt
+  Requires Python ≥ 3.8 (3.9–3.11 recommended)
+  
+2. Preparing  for  time-series gene expression profiles
    
    For the input data, ensure that it is structured with rows representing different time points and columns 
    corresponding to various genes
