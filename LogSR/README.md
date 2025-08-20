@@ -9,17 +9,11 @@ LogSR is a compact, research-friendly implementation for inferring **Boolean reg
 - MCTS search with UCB1 (selection/expansion/simulation/backpropagation)
 
 
-## Installation
-
-# counts_df: cells × genes DataFrame (float or int)
-# tf_names: list of TF gene names (must be columns in counts_df)
-# prior_edges: list of (TF_i, TF_j) tuples for priors (e.g., PPIs). Can be empty.
+## How to run
 
 counts_df = ...          # pd.DataFrame
 tf_names = [...]         # list[str]
 prior_edges = [...]      # list[tuple[str,str]]
-
-
 
 
 Inputs:
@@ -31,7 +25,6 @@ a PPI interaction matrix (square, TF×TF; weighted; symmetric or not—handled),
 a TF list file (one TF per line).
 
 Output: inferred GRN over all non-TF target genes (TF→target edges), plus the learned rule (Boolean expression) per target.
-
 
 
 python -m logsr.run \
