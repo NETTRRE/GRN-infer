@@ -9,10 +9,10 @@ requirements.txt
   
 ## Usage
 
-1.Install
+1. Install
 
-  pip install -r requirements.txt
-  Requires Python ≥ 3.8 (3.9–3.11 recommended)
+   pip install -r requirements.txt 
+   Requires Python ≥ 3.8 (3.9–3.11 recommended)
   
 2. Preparing  for  time-series gene expression profiles
    
