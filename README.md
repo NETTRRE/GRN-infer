@@ -1,4 +1,4 @@
-# [LogicGep: Boolean networks inference using symbolic regression from time-series transcriptomic profiling data](https://github.com/DZ-Z/LogicGep)
+# [Prior-guided Monte Carlo tree search for symbolic inference of gene regulatory network from single-cell transcriptomics data](https://github.com/DZ-Z/LogicGep)
 
 ![Screenshot](Figure/MCTS1-2.png)
 
