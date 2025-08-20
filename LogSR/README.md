@@ -1,4 +1,4 @@
-# LogSR: Prior-Guided, Multi-Objective Symbolic Regression for GRN Inference
+# LogSR: Prior-guided Monte Carlo tree search for symbolic inference of gene regulatory network from single-cell transcriptomics data
 
 LogSR is a compact, research-friendly implementation for inferring **Boolean regulatory rules** and projecting them into **gene regulatory networks (GRNs)** from single-cell expression. It couples **symbolic regression over Boolean expressions** with a **prior-guided, multi-objective Monte Carlo Tree Search (MCTS)** to balance predictive accuracy, biological plausibility, and model parsimony.
 
