@@ -6,9 +6,9 @@ This repository does not bundle datasets. LogSR consumes three inputs that can b
 
 2) PPI interaction matrix (weighted)
 Construct a square TF×TF interaction matrix from a curated protein–protein interaction (PPI) resource; LogSR symmetrizes it internally.  
-STRING (recommended): download the protein.links / combined-score table for your species and map proteins to TF symbols.
-Alternatives: ENCODE,BioGRID, depending on your field’s conventions.
+STRING (recommended): download the protein.links / combined-score table for your species and map proteins to TF symbols (https://string-db.org/).
+Alternatives: ENCODE(https://www.encodeproject.org/),BioGRID(https://thebiogrid.org/), depending on your field’s conventions.
 
 3) TF list
 Provide the set of transcription factors for the organism:
-AnimalTFDB (for vertebrates/invertebrates) or PlantTFDB (plants).
+AnimalTFDB (for vertebrates/invertebrates, https://guolab.wchscu.cn/AnimalTFDB4/#/) or PlantTFDB (plants, https://planttfdb.gao-lab.org/).
