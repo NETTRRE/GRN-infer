@@ -1,6 +1,6 @@
 # [Prior-guided Monte Carlo tree search for symbolic inference of gene regulatory network from single-cell transcriptomics data](https://github.com/NETTRRE/GRN-infer.git)
 
-![Screenshot](Figure/MCTS1-2.png)
+##![Screenshot](Figure/MCTS1-2.png)
 
   In this work, we introduce LogicSR, a computational framework that reconstructs gene regulatory networks from single-cell gene expression data with high accuracy by integrating the mechanistic interpretability of logical models with the equation-discovery capabilities of symbolic regression. It incorporates prior knowledge into a multi-objective Monte Carlo tree search framework, leveraging it to ensure biological plausibility and accelerate the search for optimal governing equations.
 
