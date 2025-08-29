@@ -1,4 +1,4 @@
-# [Prior-guided Monte Carlo tree search for symbolic inference of gene regulatory network from single-cell transcriptomics data](https://github.com/NETTRRE/GRN-infer.git)
+# [Prior-guided symbolic regression for gene regulatory network inference from single-cell transcriptomics data](https://github.com/NETTRRE/GRN-infer.git)
 
 
 
